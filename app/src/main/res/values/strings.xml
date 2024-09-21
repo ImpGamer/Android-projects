@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyFirstName</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="age">Edad</string>
+    <string name="calculate">Calcular</string>
+    <string name="result">Tu Resultado</string>
+    <string name="recalculate">Recalcular</string>
+    <string name="error">Error</string>
+
+    <string name="bajo_peso">Bajo Peso</string>
+    <string name="descripcion_bajo_peso">Estas por debajo de lo optimo para tu peso y altura</string>
+
+    <string name="normal_peso">Normal</string>
+    <string name="descripcion_normal_peso">Estas en lo optimo para tu peso y altura</string>
+
+    <string name="sobre_peso">SobrePeso</string>
+    <string name="descripcion_sobre_peso">Estas por encima de lo optimo para tu peso y altura</string>
+
+    <string name="obesidad_peso">Obesidad</string>
+    <string name="descripcion_obesidad_peso">Estas MUY por encima de lo optimo para tu peso y altura</string>
+    <!--TODO APP-->
+    <string name="todo_title">Bienvenido a tu TODO APP</string>
+    <string name="todo_categories">Categorias:</string>
+    <string name="todo_tasks">Tareas</string>
+    <string name="add_task_text">Agrega una tarea</string>
+    <string name="add">Crear Tarea</string>
+
+    <string name="business">Negocios</string>
+    <string name="personal">Personal</string>
+    <string name="other">Otros</string>
+    <!--Settings App-->
+    <string name="dark_mode">Modo Oscuro</string>
+    <string name="dark_mode_description">Activa el modo oscuro en la aplicacion</string>
+    <string name="bluetooth_description">Otorga permisos de conexion bluetooth a la app</string>
+</resources>

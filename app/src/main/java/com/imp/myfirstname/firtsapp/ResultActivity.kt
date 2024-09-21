@@ -1,0 +1,18 @@
+package com.imp.myfirstname.firtsapp
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.TextView
+import com.imp.myfirstname.R
+
+class ResultActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_result)
+
+        val tvResult = findViewById<TextView>(R.id.tvResult)
+        //Si existe el valor no los devolvera, en caso que no nos devolvera un string vacio
+        val name:String = intent.extras?.getString("NAME").orEmpty()
+        tvResult.text = "Hola! $name"
+    }
+}

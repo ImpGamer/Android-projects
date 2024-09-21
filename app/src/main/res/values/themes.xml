@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFirstName" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+    <!-- Creacion de estilos personalizados-->
+    <style name="Theme.MyFirstName" parent="Base.Theme.MyFirstName">
+
+    </style>
+    <style name="Theme.TODO" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/background_todo_app</item>
+    </style>
+
+    <style name="TodoSubtitle">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/subtitle_text</item>
+        <item name="android:layout_marginHorizontal">32dp</item>
+    </style>
+</resources>
